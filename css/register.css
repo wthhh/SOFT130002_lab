@@ -197,3 +197,15 @@ input[type="button"],input[type="submit"],input[type="checkbox"], input[type="ra
 textarea {
     height: 15em;
 }
+
+.verification .pic {
+    float:left;
+    margin-left: 40px; 
+    width:100px;
+    height:40px; 
+}
+
+.verification .content {
+    float:left;
+    width:500px;
+}

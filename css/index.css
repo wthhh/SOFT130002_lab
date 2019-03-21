@@ -180,20 +180,6 @@ select {
     color: #acb2b8
 }
 
-input[type="checkbox"], input[type="radio"] {
-    width: 2em;
-}
-
-input[type="button"],input[type="submit"]  {
-    background-color: #56707f;
-    border: #171a21 solid 1px;
-    width: 4em;
-}
-
-input[type="button"],input[type="submit"],input[type="checkbox"], input[type="radio"], select:hover {
-    cursor: pointer;
-}
-
 textarea {
     height: 15em;
 }

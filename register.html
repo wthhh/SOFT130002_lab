@@ -1,13 +1,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Register</title>
-	<link href="./css/register.css" rel="stylesheet" type="text/css">
+	<title>注册</title>
 	<link href="./css/reset.css" rel="stylesheet" type="text/css">
+	<link href="./css/register.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
-	<nav><a href="index.html">主页</a></nav>
+	<nav><a href="index.html"><ul><li>主页</li></a></nav>
 </header>
 <h1>创建账户</h1>
 <section>
@@ -52,7 +52,7 @@
     <p>
         注册条款<br>请复查以下协议，并通过选择页面底部的复选框同意此协议。您必须同意这些协议条款才能继续。
     </p>
-    <textarea disabled="true" style="height: 500px; width: 400px;">
+    <textarea disabled="true" style="height: 400px; width: 400px;">
     	1、本站服务条款
 本站提供的服务将完全按照服务条款严格执行。用户必须完全同意所有服务条款并完成注册程序，才能成为本站的正式用户。
 考虑到本站所提供的网络服务的重要性，用户应同意：
@@ -119,10 +119,11 @@
     </textarea>
     <br>
 	<input type="radio" value="agree" name="agree" >同意
-	<input type="radio" value="disagree" name="agree">不同意
-	<p>验证码<br>
-		<input type="identifyingcode" name="identifyingcode" pattern="7364" required>
-		<img src="images/identifying_code.jpg" style="width: 100px;height: 60px">
+	<input type="radio" value="disagree" name="agree" disabled="false">不同意
+	<p class="verification">验证码<br>
+		<input type="identifyingcode" name="identifyingcode" class="content" pattern="7364" required>
+		<img class="pic" src="images/identifying_code.jpg" >
+		<br><br>
 	</p>
 	<p>
 		<input type="submit" value="注册" name="continue">
