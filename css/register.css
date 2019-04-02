@@ -190,7 +190,6 @@ input[type="button"],input[type="submit"]  {
     background-color: #56707f;
     border: #171a21 solid 1px;
     width: 4em;
-    float: left;
    	clear: both;
 }
 
