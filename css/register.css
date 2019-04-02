@@ -190,7 +190,8 @@ input[type="button"],input[type="submit"]  {
     background-color: #56707f;
     border: #171a21 solid 1px;
     width: 4em;
-    clear: both;
+    float: left;
+   	clear: both;
 }
 
 input[type="button"],input[type="submit"],input[type="checkbox"], input[type="radio"], select:hover {
@@ -203,7 +204,6 @@ textarea {
 
 .verification .pic {
     float:left;
-    margin-left: 40px; 
     width:100px;
     height:40px; 
 }
