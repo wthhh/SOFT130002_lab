@@ -10,7 +10,9 @@ div#topHeaderRow {
    color: red;
 }
 
-.similarTitle {  }
+.similarTitle {  
+   font-weight: bold
+}
 
 .cartText { 
 
@@ -26,6 +28,16 @@ footer {
 
 #copyrightRow { 
     background-color: #3A3A3A; 
+    color: #DCDCDC;
     clear: both;
+   padding:0, 80px,0,80px;
+}
 
+#copyrightRow p{
+text-align: left}
+#copyrightRow span{
+   float: right;
+}
+.form-control{
+   max-width: 300px;
 }
