@@ -89,12 +89,12 @@ if ($db->connect_error) {
                 if ( !array_key_exists("continent", $_GET) or (($row['ContinentCode']== $_GET['continent'] or $_GET['continent']==="0") and ($row['CountryCodeISO']==$_GET['country'] or $_GET['country']==="0") and ($_GET['title']=="" or $_GET['title']==$row['Title']))){
                   echo "<li>
                   <a href=\"detail.php?id=".$row['ImageID']."\" class=\"img-responsive\">
-                    <img src=\"images/square-medium/" . $row['Path'] ."\" alt=\"" . $row['Title'] . "\">
+                    <img style=\"height:225px;weight:225px\" src=\"images/square-medium/" . $row['Path'] ."\" alt=\"" . $row['Title'] . "\">
                     <div class=\"caption\">
-                      <div class=\"blur\"><div class=\"caption-text\">
+                      <div class=\"blur\"></div>
+                      <div class=\"caption-text\">
                         <p>" . $row['Description'] . "</p>
-                      </div></div>
-                      
+                      </div>
                     </div>
                   </a>
                 </li> ";
